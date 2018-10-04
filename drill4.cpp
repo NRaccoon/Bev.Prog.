@@ -44,9 +44,9 @@ cout << "Invalid unit.\n\n";
 return 0;
 }
 
-sort(units);
+sort(units.begin(), units.end());
 cout << string(50, '\n');
-cout << "Your bumber after exchange: " << a << 'n';
+cout << "Your number after exchange: " << a << '\n';
 cout << "Smallest number so far: " << units.front() << '\n';
 cout << "Largest number so far: "<< units.back() << '\n';
 cout << "Total numbers: " << units.size() << '\n';
